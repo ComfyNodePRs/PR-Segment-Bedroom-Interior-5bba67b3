@@ -1,0 +1,14 @@
+[project]
+name = "lyra_room"
+description = "Extract furniture from room by RGB code"
+version = "1.1.0"
+license = { file = "LICENSE" }
+dependencies = ["numba", "colour-science", "rembg", "pixeloe"]
+
+[project.urls]
+Repository = "https://github.com/NguynHungNguyen/LyraFurniture.git"
+
+[tool.comfy]
+PublisherId = "Gary"
+DisplayName = "Lyra_room"
+Icon = ""
